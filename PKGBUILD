@@ -8,6 +8,6 @@ sha512sums=("SKIP")
 
 package() {
 mkdir -p "${pkgdir}/usr/bin"
-cp "${srcdir}/asudo" "${pkgdir}/usr/bin/asudo"
+cp "${srcdir}/asudo.sh" "${pkgdir}/usr/bin/asudo"
 chmod +x "${pkgdir}/usr/bin/asudo"
 }
