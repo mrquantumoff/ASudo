@@ -1,5 +1,5 @@
 pkgname="asudo"
-pkgver="1.0.0"
+pkgver="2.0.0"
 pkgrel="1"
 pkgdesc="Another version of sudo"
 arch=("x86_64")
