@@ -1,3 +1,5 @@
+# Maintainer: Kondrachuk Andrii andriy.kondrachuk@gmail.com
+# Maintainer: Demir Yerli demiryerli@gmail.com
 pkgname="asudo-bin"
 pkgver="2.0.0"
 pkgrel="1"
