@@ -1,20 +1,20 @@
-# Maintainer: Kondrachuk Andrii andriy.kondrachuk@gmail.com
 # Maintainer: Demir Yerli demiryerli@gmail.com
-pkgname="asudo-bin"
-pkgver="2.0.0"
+pkgname="dotnetpublisher-bin"
+pkgbase="dotnetpublisher"
+pkgver="1.0.0"
 pkgrel="1"
-pkgdesc="Another version of sudo"
+pkgdesc="Compile .NET file for GNU/Linux easily "
 arch=("x86_64")
-source=("asudo.sh")
+source=("dotnetpublisher.sh")
 sha512sums=("SKIP")
 
 prepear() {
-sudo rm -rf ${pkgdir}/asudo.sh
-sudo rm -rf /usr/bin/asudo
+sudo rm -rf ${pkgdir}/dotnetpublisher.sh
+sudo rm -rf /usr/bin/dotnetpublisher
 }
 
 package() {
 sudo mkdir -p "${pkgdir}/usr/bin"
-sudo cp "${srcdir}/asudo.sh" "${pkgdir}/usr/bin/asudo"
-sudo chmod +x "${pkgdir}/usr/bin/asudo"
+sudo cp "${srcdir}/dotnetpublisher.sh" "${pkgdir}/usr/bin/dotnetpublisher"
+sudo chmod +x "${pkgdir}/usr/bin/dotnetpublisher"
 }
