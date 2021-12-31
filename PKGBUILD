@@ -9,7 +9,7 @@ source=("asudo.sh")
 sha512sums=("SKIP")
 
 prepear() {
-sudo rm -rf $pkgdir/asudo.sh
+sudo rm -rf ${pkgdir}/asudo.sh
 sudo rm -rf /usr/bin/asudo
 }
 
