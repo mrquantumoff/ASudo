@@ -1,5 +1,5 @@
 # Maintainer: Demir Yerli demiryerli@gmail.com
-pkgname="dotnetpublisher-bin"
+pkgname="dotnetpublisher"
 pkgbase="dotnetpublisher"
 pkgver="1.0.0"
 pkgrel="1"
