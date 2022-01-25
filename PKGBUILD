@@ -8,13 +8,8 @@ arch=("x86_64")
 source=("dotnetpublisher.sh")
 sha512sums=("SKIP")
 
-prepear() {
-sudo rm -rf ${pkgdir}/dotnetpublisher.sh
-sudo rm -rf /usr/bin/dotnetpublisher
-}
-
 package() {
-sudo mkdir -p "${pkgdir}/usr/bin"
-sudo cp "${srcdir}/dotnetpublisher.sh" "${pkgdir}/usr/bin/dotnetpublisher"
-sudo chmod +x "${pkgdir}/usr/bin/dotnetpublisher"
+mkdir -p "${pkgdir}/usr/bin"
+cp "${srcdir}/dotnetpublisher.sh" "${pkgdir}/usr/bin/dotnetpublisher"
+chmod +x "${pkgdir}/usr/bin/dotnetpublisher"
 }
